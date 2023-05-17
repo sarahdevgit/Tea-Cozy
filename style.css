@@ -1,0 +1,144 @@
+*{font-family: Helvetica;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9; 
+}
+html{font-size: 22px;
+}
+
+
+header
+    {height: 69px;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    position:fixed;
+    border-bottom: solid 1px seashell;
+    z-index: 1;
+    opacity: 1;
+}
+header img{height: 50px;
+    margin-left: 10px;
+}
+nav {
+      margin-right: 10px;   
+    }
+nav a {padding-left: 10px;
+padding-right: 10px;
+}
+main
+{position: relative;
+display: flex;
+flex-wrap:wrap;
+align-items: center;
+margin-right: 0px;
+margin-left: 0px;
+margin: 0px auto;
+}
+
+.child
+{width: 100%;
+    background-color: black;
+    
+}
+#mission
+{height:700px;
+width: 100%;
+display: flex;
+align-items: center;
+background-image: url("/Users/sarah/Desktop/Tea Cozy/Images/img-mission-background.webp");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+margin-bottom: 80px;
+margin:70px 50px;
+
+}
+h2
+  {text-align: center;
+    font-size: 1.5rem;
+    opacity: .8;
+  }
+h4
+  {text-align: center;
+  font-size: 1rem;
+  opacity: .8;
+  }
+
+ h3, p{background-color: transparent;
+text-align: center;
+align-items: center;}
+
+.box img
+{width: 300px;
+Height: 200px;
+padding-bottom: 10px;
+  }
+
+#container
+{max-width:  1000px;
+  margin: 0px auto;
+}
+
+.box{
+    display: flex;
+    justify-content: center ;
+    text-align: center;
+    flex-flow:  wrap;
+    align-items: center;
+    margin-bottom: 80px;
+    margin-top: -15px;
+}
+
+figure{width:300px;
+height: 200px;
+padding-bottom: 35px;
+margin:15px;
+background-color: transparent;
+}
+
+.location{display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-image: url("Images/img-locations-background.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: .7;
+    min-height: 500px;
+    width: 100%;
+margin: 0px 50px;
+}
+
+.location h2{background-color: transparent;
+margin-bottom: 15px;
+opacity: 1;}
+
+.left, .middle, .right{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: top;
+    text-align: center;
+width: 300px;
+margin: 20px;
+padding: 15px;
+  }
+  .local{display:flex;
+
+flex-wrap: wrap;
+background-color: transparent;
+}
+ #contact{display: block;
+height: 200px;
+width: 100%;
+align-items: center;
+text-align: center;
+
+
+}
+footer{padding-left: 20px;}
+ 
